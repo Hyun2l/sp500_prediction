@@ -5,6 +5,7 @@ data/
 models/
 *.ckpt
 .env
+
 *.pt
 *.pth
 .kaggle/
