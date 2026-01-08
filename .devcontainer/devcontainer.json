@@ -1,6 +1,6 @@
 {
   "name": "ML Dev Container",
-  "image": "mcr.microsoft.com/vscode/devcontainers/python:0-3.12",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
   "postCreateCommand": "python -m ensurepip --upgrade && python -m pip install --upgrade pip && python -m pip install -r requirements.txt",
   "forwardPorts": [8888, 6006],
   "customizations": {
@@ -10,8 +10,7 @@
       },
       "extensions": [
         "ms-python.python",
-        "ms-toolsai.jupyter",
-        "ms-azuretools.vscode-docker"
+        "ms-toolsai.jupyter"
       ]
     }
   }
